@@ -3,11 +3,11 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: https://s2.loli.net/2024/03/15/rtSmTzwV9x2R4ej.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: https://s2.loli.net/2024/03/15/rtSmTzwV9x2R4ej.png
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -105,11 +105,11 @@ head:
 navbar:
     # Navigation menu items
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        首页: /
+        所有内容: /archives
+        分类: /categories
+        标签: /tags
+        关于: /about
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
@@ -118,7 +118,7 @@ navbar:
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: © 2019
+    copyright: © <a href="https://icp.gov.moe/?keyword=20240199" target="_blank">萌ICP备20240199号</a>
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -229,33 +229,21 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: 安科
         # Author title
-        author_title: Your title
+        author_title: 安科工作室官方博客
         # Author's current location
-        location: Your location
+        location: China
         # URL or path to the avatar image
-        avatar: 
+        avatar: https://s2.loli.net/2024/03/15/rtSmTzwV9x2R4ej.png
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: https://github.com/ppoffice
+        follow_link: https://xn--49s41h.xyz/
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Github:
-                icon: fab fa-github
-                url: https://github.com/ppoffice
-            Facebook:
-                icon: fab fa-facebook
-                url: https://facebook.com
-            Twitter:
-                icon: fab fa-twitter
-                url: https://twitter.com
-            Dribbble:
-                icon: fab fa-dribbble
-                url: https://dribbble.com
             RSS:
                 icon: fas fa-rss
                 url: /
@@ -277,8 +265,8 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+            Telegram粉丝群: https://t.me/AnkoStudioFans
+            联系我们: mailto:anko@akgzs.top
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
