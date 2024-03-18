@@ -3,11 +3,11 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: https://s2.loli.net/2024/03/15/rtSmTzwV9x2R4ej.png
+logo: https://s2.loli.net/2024/03/18/jYIyMnwObzGkrt6.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: https://s2.loli.net/2024/03/15/rtSmTzwV9x2R4ej.png
+    favicon: https://s2.loli.net/2024/03/18/jYIyMnwObzGkrt6.png
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -110,10 +110,15 @@ navbar:
         分类: /categories
         标签: /tags
         关于: /about
+    # Links to be shown on the right of the navigation bar
+    links:
+        Download on GitHub:
+            icon: fab fa-github
+            url: https://github.com/ppoffice/hexo-theme-icarus
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: © <a href="https://icp.gov.moe/?keyword=20240199" target="_blank">萌ICP备20240199号</a>
+    copyright: <a href="https://icp.gov.moe/?keyword=20241721" target="_blank">萌ICP备20241721号</a>
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -175,9 +180,8 @@ donates:
     -
         type: alipay
         # Alipay qrcode image URL
-        qrcode: 'https://s2.loli.net/2024/03/16/fU7gbBVGdEOipZY.jpg'
+        qrcode: 'https://s2.loli.net/2024/03/18/e4FAjpl27CsLZgw.jpg'
     # "Buy me a coffee" donate button configurations
-    # Wechat donate button configurations
     -
         type: wechat
         # Wechat qrcode image URL
@@ -208,21 +212,30 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: 安科
+        author: 安心
         # Author title
-        author_title: 安科工作室官方博客
+        author_title: 一个创作者
         # Author's current location
-        location: China
+        location: Jinan ShanDong China
         # URL or path to the avatar image
-        avatar: https://s2.loli.net/2024/03/15/rtSmTzwV9x2R4ej.png
+        avatar: https://s2.loli.net/2024/03/18/qWmPAHUN2EeKxcr.png
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: https://xn--49s41h.xyz/
+        follow_link: https://twitter.com/Anson_Quu
         # Links to be shown on the bottom of the profile widget
         social_links:
+            Facebook:
+                icon: fab fa-facebook
+                url: https://www.facebook.com/profile.php?id=61555289674732
+            Twitter:
+                icon: fab fa-twitter
+                url: https://twitter.com/Anson_Quu
+            Dribbble:
+                icon: fab fa-telegram
+                url: https://t.me/unognn
             RSS:
                 icon: fas fa-rss
                 url: /
@@ -244,8 +257,8 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Telegram粉丝群: https://t.me/AnkoStudioFans
-            联系我们: mailto:anko@akgzs.top
+            进入Telegram粉丝群: https://t.me/Ansons_blog
+            联系我: mailto:service@anson.fun?subject=from：博客
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
